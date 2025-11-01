@@ -1,16 +1,61 @@
-# React + Vite
+# React Chatbot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple chatbot built with React (Vite) to explore API integration and chatbot functionalities using Google Gemini API.
 
-Currently, two official plugins are available:
+This project demonstrates the integration of a third-party API into a JavaScript application, focusing on understanding API requests, response handling, and basic chatbot functionality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**LIVE DEMO** : [View Here](https://react-chatbot-weld.vercel.app/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Key Highlights
 
-## Expanding the ESLint configuration
+-Implemented Gemini API for text generation
+-Focused on API request handling and state management
+-Built with React + Vite for faster development
+-Basic chatbot interface (minimal styling)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+-React (Vite) — Frontend framework
+-Tailwind CSS — Minimal styling
+-Gemini API — AI model integration
+-Vercel — Deployment platform
+
+---
+
+### Setup Instructions
+
+Follow these steps to set up and run the project locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   ```
+
+2. **Navigate to the project directory**
+   ```bash
+   cd your-repo-name
+   ```
+
+3. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+4. **Add your API keys (if required)**
+   - Create a `.env` file in the root directory.
+   - Add your keys like this:
+     ```env
+     VITE_API_KEY=your_public_api_key_here
+     ```
+
+5. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+6. **Open in browser**
+   Visit the URL shown in the terminal (usually `http://localhost:5173`) to view the project.
