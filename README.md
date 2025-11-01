@@ -6,25 +6,22 @@ This project demonstrates the integration of a third-party API into a JavaScript
 
 **LIVE DEMO** : [View Here](https://react-chatbot-weld.vercel.app/)
 
----
 
 ## Key Highlights
 
--Implemented Gemini API for text generation
--Focused on API request handling and state management
--Built with React + Vite for faster development
--Basic chatbot interface (minimal styling)
+- Implemented Gemini API for text generation
+- Focused on API request handling and state management
+- Built with React + Vite for faster development
+- Basic chatbot interface (minimal styling)
 
----
 
 ## Tech Stack
 
--React (Vite) — Frontend framework
--Tailwind CSS — Minimal styling
--Gemini API — AI model integration
--Vercel — Deployment platform
+- React (Vite) — Frontend framework
+- Tailwind CSS — Minimal styling
+- Gemini API — AI model integration
+- Vercel — Deployment platform
 
----
 
 ### Setup Instructions
 
